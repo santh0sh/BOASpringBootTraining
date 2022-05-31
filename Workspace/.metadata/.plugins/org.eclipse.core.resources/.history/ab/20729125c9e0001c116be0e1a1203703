@@ -1,0 +1,4 @@
+spring.datasource.driverClassName=com.oracle.jdbc.Driver
+spring.datasource.url=com.oracle.jdbc.Driver
+spring.datasource.username=prod
+spring.datasource.password=prod

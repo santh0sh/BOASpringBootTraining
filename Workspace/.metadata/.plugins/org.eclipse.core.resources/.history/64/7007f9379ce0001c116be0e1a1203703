@@ -1,0 +1,33 @@
+package com.boa.boaspringmvc;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.boa.boaspringmvc.pojo.User;
+import com.boa.boaspringmvc.service.UserService;
+
+@RestController // Can be used only where we are retuning the response body
+@RequestMapping("/mainapp")
+public class AppController {
+
+	@Autowired
+	UserService userService;
+	
+
+	@PostMapping("/login")
+	public String validateLogin(@ModelAttribute User loginUser) {
+		if (userService.validateLogin(loginUser)) {
+			return "Login Success";
+		}
+		return "Login Failed";
+	}
+
+	
+	@PostMapping("/register")
+	public String registerUser(@ModelAttribute User registerUser) {
+		return userService.registerUser(registerUser);
+	}
+}

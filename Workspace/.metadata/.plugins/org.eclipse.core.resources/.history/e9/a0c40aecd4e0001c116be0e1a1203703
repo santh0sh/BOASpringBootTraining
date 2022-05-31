@@ -1,0 +1,9 @@
+package com.exception;
+
+public class ErrorReponse {
+
+	public ErrorReponse() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
