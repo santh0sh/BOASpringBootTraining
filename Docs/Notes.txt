@@ -5,3 +5,8 @@ Amarjeet
 Important  URLS:-
 
 Create a Spring template Maven project from https://start.spring.io/
+
+
+Tutor Git hub :- https://github.com/amarjeet-arora/boajune
+
+Tutor Notepad notes :- https://notepad.pw/838172zc
