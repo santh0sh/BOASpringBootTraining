@@ -1,0 +1,11 @@
+package com.model;
+
+public class FixedAccount implements InterestCalculator {
+
+	@Override
+	public double calcluate(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Login page</title>
+</head>
+<body>
+
+	Welcome to Login page
+
+	<form method="post">
+		UserName <input type="text"  name="uname">
+		Password <input type="password"  name="pwd">
+		<button>Login</button>
+	</form>
+</body>
+</html>

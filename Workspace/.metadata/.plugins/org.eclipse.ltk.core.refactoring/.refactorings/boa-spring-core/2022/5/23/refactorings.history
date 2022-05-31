@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AppConfig.java&apos; to &apos;boa-spring-core/src/main/java/com.examples.account&apos;&#x0D;&#x0A;- Original project: &apos;boa-spring-task&apos;&#x0D;&#x0A;- Destination element: &apos;boa-spring-core/src/main/java/com.examples.account&apos;&#x0D;&#x0A;- Original element: &apos;com.client.AppConfig.java&apos;" description="Copy compilation unit" destination="=boa-spring-core/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.examples.account" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.client{AppConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1653896306787" units="1" version="1.0"/>
+</session>

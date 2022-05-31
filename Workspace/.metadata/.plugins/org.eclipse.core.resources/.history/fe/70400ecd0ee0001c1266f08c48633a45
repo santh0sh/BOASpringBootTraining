@@ -1,0 +1,18 @@
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="mvcform" %>
+<html>
+<head>
+<title>Login page</title>
+</head>
+<body>
+
+	Welcome to Register page
+
+	<mvcform:form method="post" modelAttribute="registerUser">
+		UserName <mvcform:input type="text" name="uname"/><br>
+		Password <mvcform:password name="pwd"/><br>
+		Email <mvcform:input name="email"/><br>
+		City <mvcform:input name="city"/><br>
+		<button>Register</button>
+	</mvcform:form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.boa.boaspringmvc;
+
+public class AppController {
+
+}

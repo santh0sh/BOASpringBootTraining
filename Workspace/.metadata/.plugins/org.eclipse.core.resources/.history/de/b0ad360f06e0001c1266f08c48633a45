@@ -1,0 +1,5 @@
+package com.boa.boaspringmvc.service;
+
+public class UserService {
+
+}

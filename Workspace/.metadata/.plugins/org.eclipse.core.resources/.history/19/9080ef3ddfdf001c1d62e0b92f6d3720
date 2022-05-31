@@ -1,0 +1,21 @@
+package com.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+import com.model.InterestCalculator;
+
+@Service
+@Component("service")
+public class BankService {
+
+	@Autowired
+	@Qualifier("savingsAccount")
+	InterestCalculator interestCalculator;
+
+	public double calculateSavingsInterest(double amount) {
+		return interestCalculator.calcluate(amount);
+	}
+}

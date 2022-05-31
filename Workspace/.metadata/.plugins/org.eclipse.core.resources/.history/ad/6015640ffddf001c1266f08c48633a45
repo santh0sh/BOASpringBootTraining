@@ -1,0 +1,28 @@
+package com.boa.boaspringmvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+@RequestMapping("/mainapp")
+public class AppController {
+
+	@RequestMapping(value="/welcome",method=RequestMethod.GET)
+	@ResponseBody
+	public String welcome() {
+			return "Welcome to SPring Rest";
+		}
+	
+	@RequestMapping(value="/login",method=RequestMethod.GET)
+	@ResponseBody
+	public String login() {
+			return "Welcome to Login Page";
+		}
+	@RequestMapping(value="/register",method=RequestMethod.GET)
+	@ResponseBody
+	public String register() {
+			return "Welcome to Registrations";
+		}
+}

@@ -1,0 +1,24 @@
+package com.examples.account;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+//@ComponentScan("com")
+public class AppConfig {
+
+	@Bean
+	public FixedAccount fxdAcct() {
+		return new FixedAccount();
+	}
+	@Bean
+	public SavingsAccount svngsAcct() {
+		return new SavingsAccount();
+	}
+	@Bean
+	public BankService savingsService() {
+		return new BankService(svngsAcct());
+	}
+	
+}

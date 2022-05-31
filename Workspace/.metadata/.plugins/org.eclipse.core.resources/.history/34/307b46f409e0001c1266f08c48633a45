@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Login page</title>
+</head>
+<body>
+
+Welcome to Register page
+
+<form method="post">
+		UserName <input type="text" placeholder="UserName" name="uname"><br>
+		Password <input type="password" placeholder="Password" name="pwd"><br>
+		Email <input type="text" placeholder="Email" name="email"><br>
+		City <input type="text" placeholder="City" name="city"><br>
+		<button>Register</button>
+	</form>
+</body>	
+</html>
