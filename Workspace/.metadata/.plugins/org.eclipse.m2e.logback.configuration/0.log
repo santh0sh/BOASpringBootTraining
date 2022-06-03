@@ -22659,3 +22659,627 @@ org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcTemplat
 2022-06-03 15:09:59,753 [Worker-537: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-03 15:09:59,753 [Worker-537: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-06-03 15:09:59,753 [Worker-537: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-jpa\src\test\resources
+2022-06-03 16:35:35,576 [Worker-542: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BoaSpringMvcApplication (3) references closed project boa-spring-jpa
+org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcApplication (3) references closed project boa-spring-jpa
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:35:35,577 [Worker-542: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BoaSpringMvcApplication (3) references closed project boa-spring-jpa
+org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcApplication (3) references closed project boa-spring-jpa
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:35:35,579 [Worker-542: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BoaSpringMvcApplication (3) references closed project boa-spring-jpa
+org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcApplication (3) references closed project boa-spring-jpa
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:35:57,828 [Worker-544: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 0 sec
+2022-06-03 16:36:21,474 [Worker-545: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-06-03 16:36:21,526 [Worker-545: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-06-03 16:36:32,126 [Worker-543: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.example:zipkin-service-1:0.0.1-SNAPSHOT: Could not find artifact com.example.hjava:zipkin:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 14, column 12
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.example:zipkin-service-1:0.0.1-SNAPSHOT: Could not find artifact com.example.hjava:zipkin:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 14, column 12
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:40:40,224 [Worker-547: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-mvc:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\pom.xml.
+2022-06-03 16:40:40,802 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:40:40,803 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:40:40,803 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:40:40,820 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:40:40,822 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:40:40,822 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:40:40,822 [Worker-545: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\src\test\resources
+2022-06-03 16:41:35,651 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:41:35,651 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:41:35,651 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:41:35,654 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:41:35,656 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:41:35,656 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:41:35,656 [Worker-551: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\src\test\resources
+2022-06-03 16:41:44,632 [Worker-551: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-06-03 16:41:44,930 [Worker-551: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-mvc:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\pom.xml.
+2022-06-03 16:41:45,189 [Worker-551: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /boa-spring-mvc/src/main/java
+2022-06-03 16:41:45,190 [Worker-551: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /boa-spring-mvc/src/main/resources
+2022-06-03 16:41:45,190 [Worker-551: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /boa-spring-mvc/src/main/resources
+2022-06-03 16:41:45,190 [Worker-551: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /boa-spring-mvc/src/test/java
+2022-06-03 16:41:45,318 [Worker-551: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-06-03 16:41:45,827 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:41:45,827 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:41:45,827 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:41:45,839 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:41:45,841 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:41:45,841 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:41:45,841 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\src\test\resources
+2022-06-03 16:42:03,174 [Worker-551: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BoaSpringMvcApplication references closed project boa-spring-mvc
+org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcApplication references closed project boa-spring-mvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:42:03,175 [Worker-551: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BoaSpringMvcApplication references closed project boa-spring-mvc
+org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcApplication references closed project boa-spring-mvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:42:03,177 [Worker-551: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BoaSpringMvcApplication references closed project boa-spring-mvc
+org.eclipse.core.runtime.CoreException: Launch configuration BoaSpringMvcApplication references closed project boa-spring-mvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:42:07,396 [Worker-547: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-mvc:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\pom.xml.
+2022-06-03 16:42:08,503 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:42:08,504 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:42:08,504 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:42:08,533 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:42:08,535 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:42:08,535 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:42:08,535 [Worker-548: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\src\test\resources
+2022-06-03 16:42:46,879 [Worker-551: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.example:zipkin-service-1:0.0.1-SNAPSHOT: Could not find artifact com.example.hjava:zipkin:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 13, column 10
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.example:zipkin-service-1:0.0.1-SNAPSHOT: Could not find artifact com.example.hjava:zipkin:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 13, column 10
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:47:57,760 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java:microservice1:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice1\pom.xml.
+2022-06-03 16:47:58,858 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/2.1.2.RELEASE/spring-cloud-starter-sleuth-2.1.2.RELEASE.pom
+2022-06-03 16:47:59,217 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/2.1.2.RELEASE/spring-cloud-starter-sleuth-2.1.2.RELEASE.pom
+2022-06-03 16:47:59,400 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth/2.1.2.RELEASE/spring-cloud-sleuth-2.1.2.RELEASE.pom
+2022-06-03 16:47:59,605 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth/2.1.2.RELEASE/spring-cloud-sleuth-2.1.2.RELEASE.pom
+2022-06-03 16:47:59,789 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.1.6.RELEASE/spring-cloud-build-2.1.6.RELEASE.pom
+2022-06-03 16:48:00,054 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.1.6.RELEASE/spring-cloud-build-2.1.6.RELEASE.pom
+2022-06-03 16:48:00,248 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.6.5/brave-bom-5.6.5.pom
+2022-06-03 16:48:00,431 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.6.5/brave-bom-5.6.5.pom
+2022-06-03 16:48:00,622 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.8.4/zipkin-reporter-bom-2.8.4.pom
+2022-06-03 16:48:00,805 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.8.4/zipkin-reporter-bom-2.8.4.pom
+2022-06-03 16:48:00,989 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.1.6.RELEASE/spring-cloud-build-dependencies-2.1.6.RELEASE.pom
+2022-06-03 16:48:01,171 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.1.6.RELEASE/spring-cloud-build-dependencies-2.1.6.RELEASE.pom
+2022-06-03 16:48:01,367 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.6.RELEASE/spring-boot-dependencies-2.1.6.RELEASE.pom
+2022-06-03 16:48:01,746 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.6.RELEASE/spring-boot-dependencies-2.1.6.RELEASE.pom
+2022-06-03 16:48:01,932 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR9/reactor-bom-Californium-SR9.pom
+2022-06-03 16:48:02,115 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR9/reactor-bom-Californium-SR9.pom
+2022-06-03 16:48:02,302 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.8.RELEASE/spring-framework-bom-5.1.8.RELEASE.pom
+2022-06-03 16:48:02,485 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.8.RELEASE/spring-framework-bom-5.1.8.RELEASE.pom
+2022-06-03 16:48:02,669 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Lovelace-SR9/spring-data-releasetrain-Lovelace-SR9.pom
+2022-06-03 16:48:02,851 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Lovelace-SR9/spring-data-releasetrain-Lovelace-SR9.pom
+2022-06-03 16:48:03,035 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.9.RELEASE/spring-data-build-2.1.9.RELEASE.pom
+2022-06-03 16:48:03,218 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.9.RELEASE/spring-data-build-2.1.9.RELEASE.pom
+2022-06-03 16:48:03,404 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.1.6.RELEASE/spring-integration-bom-5.1.6.RELEASE.pom
+2022-06-03 16:48:03,587 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.1.6.RELEASE/spring-integration-bom-5.1.6.RELEASE.pom
+2022-06-03 16:48:03,786 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Bean-SR6/spring-session-bom-Bean-SR6.pom
+2022-06-03 16:48:03,969 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Bean-SR6/spring-session-bom-Bean-SR6.pom
+2022-06-03 16:48:04,205 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-core/2.1.2.RELEASE/spring-cloud-sleuth-core-2.1.2.RELEASE.pom
+2022-06-03 16:48:04,387 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-core/2.1.2.RELEASE/spring-cloud-sleuth-core-2.1.2.RELEASE.pom
+2022-06-03 16:48:04,572 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.4/aspectjrt-1.9.4.pom
+2022-06-03 16:48:04,756 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.4/aspectjrt-1.9.4.pom
+2022-06-03 16:48:04,940 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.6.5/brave-5.6.5.pom
+2022-06-03 16:48:05,123 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.6.5/brave-5.6.5.pom
+2022-06-03 16:48:05,312 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/5.6.5/brave-parent-5.6.5.pom
+2022-06-03 16:48:05,500 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/5.6.5/brave-parent-5.6.5.pom
+2022-06-03 16:48:05,697 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.14.2/zipkin-2.14.2.pom
+2022-06-03 16:48:05,881 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.14.2/zipkin-2.14.2.pom
+2022-06-03 16:48:06,070 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin-parent/2.14.2/zipkin-parent-2.14.2.pom
+2022-06-03 16:48:06,259 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin-parent/2.14.2/zipkin-parent-2.14.2.pom
+2022-06-03 16:48:06,443 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.8.4/zipkin-reporter-2.8.4.pom
+2022-06-03 16:48:06,626 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.8.4/zipkin-reporter-2.8.4.pom
+2022-06-03 16:48:06,817 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.8.4/zipkin-reporter-parent-2.8.4.pom
+2022-06-03 16:48:07,000 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.8.4/zipkin-reporter-parent-2.8.4.pom
+2022-06-03 16:48:07,184 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-log4j2/5.6.5/brave-context-log4j2-5.6.5.pom
+2022-06-03 16:48:07,367 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-log4j2/5.6.5/brave-context-log4j2-5.6.5.pom
+2022-06-03 16:48:07,550 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/5.6.5/brave-context-parent-5.6.5.pom
+2022-06-03 16:48:07,732 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/5.6.5/brave-context-parent-5.6.5.pom
+2022-06-03 16:48:07,916 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-web/5.6.5/brave-instrumentation-spring-web-5.6.5.pom
+2022-06-03 16:48:08,100 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-web/5.6.5/brave-instrumentation-spring-web-5.6.5.pom
+2022-06-03 16:48:08,284 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/5.6.5/brave-instrumentation-parent-5.6.5.pom
+2022-06-03 16:48:08,466 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/5.6.5/brave-instrumentation-parent-5.6.5.pom
+2022-06-03 16:48:08,651 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.6.5/brave-instrumentation-http-5.6.5.pom
+2022-06-03 16:48:08,836 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.6.5/brave-instrumentation-http-5.6.5.pom
+2022-06-03 16:48:09,020 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.6.5/brave-instrumentation-spring-rabbit-5.6.5.pom
+2022-06-03 16:48:09,203 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.6.5/brave-instrumentation-spring-rabbit-5.6.5.pom
+2022-06-03 16:48:09,409 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.6.5/brave-instrumentation-kafka-clients-5.6.5.pom
+2022-06-03 16:48:09,594 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.6.5/brave-instrumentation-kafka-clients-5.6.5.pom
+2022-06-03 16:48:09,778 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.6.5/brave-instrumentation-httpclient-5.6.5.pom
+2022-06-03 16:48:09,961 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.6.5/brave-instrumentation-httpclient-5.6.5.pom
+2022-06-03 16:48:10,146 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.6.5/brave-instrumentation-httpasyncclient-5.6.5.pom
+2022-06-03 16:48:10,330 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.6.5/brave-instrumentation-httpasyncclient-5.6.5.pom
+2022-06-03 16:48:10,526 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.5/brave-instrumentation-spring-webmvc-5.6.5.pom
+2022-06-03 16:48:10,709 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.5/brave-instrumentation-spring-webmvc-5.6.5.pom
+2022-06-03 16:48:10,896 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-servlet/5.6.5/brave-instrumentation-servlet-5.6.5.pom
+2022-06-03 16:48:11,078 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-servlet/5.6.5/brave-instrumentation-servlet-5.6.5.pom
+2022-06-03 16:48:11,292 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.6.5/brave-instrumentation-jms-5.6.5.pom
+2022-06-03 16:48:11,868 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.6.5/brave-instrumentation-jms-5.6.5.pom
+2022-06-03 16:48:12,078 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-log4j2/2.1.7.RELEASE/spring-boot-starter-log4j2-2.1.7.RELEASE.pom
+2022-06-03 16:48:12,261 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-log4j2/2.1.7.RELEASE/spring-boot-starter-log4j2-2.1.7.RELEASE.pom
+2022-06-03 16:48:12,455 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.pom
+2022-06-03 16:48:12,637 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.pom
+2022-06-03 16:48:12,839 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.pom
+2022-06-03 16:48:13,030 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.pom
+2022-06-03 16:48:13,220 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2.pom
+2022-06-03 16:48:13,402 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2.pom
+2022-06-03 16:48:13,586 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-zipkin/2.1.2.RELEASE/spring-cloud-starter-zipkin-2.1.2.RELEASE.pom
+2022-06-03 16:48:13,770 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-zipkin/2.1.2.RELEASE/spring-cloud-starter-zipkin-2.1.2.RELEASE.pom
+2022-06-03 16:48:13,958 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.2.RELEASE/spring-cloud-sleuth-zipkin-2.1.2.RELEASE.pom
+2022-06-03 16:48:14,141 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.2.RELEASE/spring-cloud-sleuth-zipkin-2.1.2.RELEASE.pom
+2022-06-03 16:48:14,328 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.8.4/zipkin-sender-kafka-2.8.4.pom
+2022-06-03 16:48:14,511 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.8.4/zipkin-sender-kafka-2.8.4.pom
+2022-06-03 16:48:14,695 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.8.4/zipkin-sender-amqp-client-2.8.4.pom
+2022-06-03 16:48:14,879 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.8.4/zipkin-sender-amqp-client-2.8.4.pom
+2022-06-03 16:48:15,070 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/2.1.2.RELEASE/spring-cloud-starter-sleuth-2.1.2.RELEASE.jar
+2022-06-03 16:48:15,250 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-log4j2/5.6.5/brave-context-log4j2-5.6.5.jar
+2022-06-03 16:48:15,269 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.4/aspectjrt-1.9.4.jar
+2022-06-03 16:48:15,288 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.6.5/brave-5.6.5.jar
+2022-06-03 16:48:15,361 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-core/2.1.2.RELEASE/spring-cloud-sleuth-core-2.1.2.RELEASE.jar
+2022-06-03 16:48:15,501 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/2.1.2.RELEASE/spring-cloud-starter-sleuth-2.1.2.RELEASE.jar
+2022-06-03 16:48:15,668 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-log4j2/5.6.5/brave-context-log4j2-5.6.5.jar
+2022-06-03 16:48:15,920 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-web/5.6.5/brave-instrumentation-spring-web-5.6.5.jar
+2022-06-03 16:48:16,015 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.4/aspectjrt-1.9.4.jar
+2022-06-03 16:48:16,028 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.6.5/brave-instrumentation-http-5.6.5.jar
+2022-06-03 16:48:16,038 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.6.5/brave-5.6.5.jar
+2022-06-03 16:48:16,146 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-web/5.6.5/brave-instrumentation-spring-web-5.6.5.jar
+2022-06-03 16:48:16,206 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.6.5/brave-instrumentation-spring-rabbit-5.6.5.jar
+2022-06-03 16:48:16,210 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-core/2.1.2.RELEASE/spring-cloud-sleuth-core-2.1.2.RELEASE.jar
+2022-06-03 16:48:16,322 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.6.5/brave-instrumentation-http-5.6.5.jar
+2022-06-03 16:48:16,334 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.6.5/brave-instrumentation-kafka-clients-5.6.5.jar
+2022-06-03 16:48:16,382 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.6.5/brave-instrumentation-httpclient-5.6.5.jar
+2022-06-03 16:48:16,389 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.6.5/brave-instrumentation-spring-rabbit-5.6.5.jar
+2022-06-03 16:48:16,509 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.6.5/brave-instrumentation-httpasyncclient-5.6.5.jar
+2022-06-03 16:48:16,520 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.5/brave-instrumentation-spring-webmvc-5.6.5.jar
+2022-06-03 16:48:16,554 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.6.5/brave-instrumentation-kafka-clients-5.6.5.jar
+2022-06-03 16:48:16,569 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.6.5/brave-instrumentation-httpclient-5.6.5.jar
+2022-06-03 16:48:16,690 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-servlet/5.6.5/brave-instrumentation-servlet-5.6.5.jar
+2022-06-03 16:48:16,692 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.6.5/brave-instrumentation-httpasyncclient-5.6.5.jar
+2022-06-03 16:48:16,732 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.5/brave-instrumentation-spring-webmvc-5.6.5.jar
+2022-06-03 16:48:16,757 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.6.5/brave-instrumentation-jms-5.6.5.jar
+2022-06-03 16:48:16,855 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-log4j2/2.1.7.RELEASE/spring-boot-starter-log4j2-2.1.7.RELEASE.jar
+2022-06-03 16:48:16,921 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar
+2022-06-03 16:48:16,931 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-servlet/5.6.5/brave-instrumentation-servlet-5.6.5.jar
+2022-06-03 16:48:16,943 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar
+2022-06-03 16:48:17,355 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2.jar
+2022-06-03 16:48:17,357 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-log4j2/2.1.7.RELEASE/spring-boot-starter-log4j2-2.1.7.RELEASE.jar
+2022-06-03 16:48:17,357 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.6.5/brave-instrumentation-jms-5.6.5.jar
+2022-06-03 16:48:17,357 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar
+2022-06-03 16:48:17,711 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.2.RELEASE/spring-cloud-sleuth-zipkin-2.1.2.RELEASE.jar
+2022-06-03 16:48:17,711 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-zipkin/2.1.2.RELEASE/spring-cloud-starter-zipkin-2.1.2.RELEASE.jar
+2022-06-03 16:48:17,711 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.14.2/zipkin-2.14.2.jar
+2022-06-03 16:48:17,848 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2.jar
+2022-06-03 16:48:18,087 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-zipkin/2.1.2.RELEASE/spring-cloud-starter-zipkin-2.1.2.RELEASE.jar
+2022-06-03 16:48:18,211 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.8.4/zipkin-reporter-2.8.4.jar
+2022-06-03 16:48:18,212 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.2.RELEASE/spring-cloud-sleuth-zipkin-2.1.2.RELEASE.jar
+2022-06-03 16:48:18,447 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.8.4/zipkin-sender-kafka-2.8.4.jar
+2022-06-03 16:48:18,572 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.8.4/zipkin-sender-amqp-client-2.8.4.jar
+2022-06-03 16:48:18,574 [AetherRepositoryConnector-repo.maven.apache.org-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.14.2/zipkin-2.14.2.jar
+2022-06-03 16:48:18,694 [AetherRepositoryConnector-repo.maven.apache.org-22-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.8.4/zipkin-reporter-2.8.4.jar
+2022-06-03 16:48:18,789 [AetherRepositoryConnector-repo.maven.apache.org-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.8.4/zipkin-sender-kafka-2.8.4.jar
+2022-06-03 16:48:18,875 [AetherRepositoryConnector-repo.maven.apache.org-22-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.8.4/zipkin-sender-amqp-client-2.8.4.jar
+2022-06-03 16:48:19,072 [AetherRepositoryConnector-repo.maven.apache.org-22-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar
+2022-06-03 16:48:19,705 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java:microservice2:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice2\pom.xml.
+2022-06-03 16:48:19,730 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:microservice3:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice3\pom.xml.
+2022-06-03 16:48:19,757 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:microservice4:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice4\pom.xml.
+2022-06-03 16:48:19,845 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-mvc:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\pom.xml.
+2022-06-03 16:48:19,917 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java:microservice1:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice1\pom.xml.
+2022-06-03 16:48:20,867 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice4/src/main/java
+2022-06-03 16:48:20,868 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice4/src/main/resources
+2022-06-03 16:48:20,868 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice4/src/main/resources
+2022-06-03 16:48:20,869 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice4/src/test/java
+2022-06-03 16:48:21,031 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice3/src/main/java
+2022-06-03 16:48:21,031 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice3/src/main/resources
+2022-06-03 16:48:21,031 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice3/src/main/resources
+2022-06-03 16:48:21,031 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice3/src/test/java
+2022-06-03 16:48:21,180 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice2/src/main/java
+2022-06-03 16:48:21,181 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice2/src/main/resources
+2022-06-03 16:48:21,181 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice2/src/main/resources
+2022-06-03 16:48:21,181 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice2/src/test/java
+2022-06-03 16:48:21,949 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice1/src/main/java
+2022-06-03 16:48:21,949 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice1/src/main/resources
+2022-06-03 16:48:21,949 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservice1/src/main/resources
+2022-06-03 16:48:21,949 [Worker-552: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservice1/src/test/java
+2022-06-03 16:48:22,101 [Worker-552: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 24 sec
+2022-06-03 16:48:22,391 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/2.1.2.RELEASE/spring-cloud-starter-sleuth-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:22,567 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-sleuth/2.1.2.RELEASE/spring-cloud-starter-sleuth-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:22,592 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-sleuth:2.1.2.RELEASE
+2022-06-03 16:48:22,628 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:22,629 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:48:22,631 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:48:22,643 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:22,645 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:22,645 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 16:48:22,645 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-mvc\boa-spring-mvc\src\test\resources
+2022-06-03 16:48:22,879 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:22,880 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:48:22,890 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:22,891 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:22,891 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice1\src\test\resources
+2022-06-03 16:48:22,943 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:22,943 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:48:22,944 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:22,945 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:22,945 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice2\src\test\resources
+2022-06-03 16:48:23,238 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:23,238 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:48:23,239 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:23,240 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:23,240 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice3\src\test\resources
+2022-06-03 16:48:23,363 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-core/2.1.2.RELEASE/spring-cloud-sleuth-core-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:23,592 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:23,592 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 16:48:23,594 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:23,595 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:23,595 [Worker-549: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice4\src\test\resources
+2022-06-03 16:48:23,978 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-core/2.1.2.RELEASE/spring-cloud-sleuth-core-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:24,012 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-core:2.1.2.RELEASE
+2022-06-03 16:48:24,735 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.4/aspectjrt-1.9.4-sources.jar
+2022-06-03 16:48:25,178 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.4/aspectjrt-1.9.4-sources.jar
+2022-06-03 16:48:25,200 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.4
+2022-06-03 16:48:25,959 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.6.5/brave-5.6.5-sources.jar
+2022-06-03 16:48:26,585 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/5.6.5/brave-5.6.5-sources.jar
+2022-06-03 16:48:26,608 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:5.6.5
+2022-06-03 16:48:27,324 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-log4j2/5.6.5/brave-context-log4j2-5.6.5-sources.jar
+2022-06-03 16:48:27,683 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-log4j2/5.6.5/brave-context-log4j2-5.6.5-sources.jar
+2022-06-03 16:48:27,756 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-log4j2:5.6.5
+2022-06-03 16:48:28,526 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-web/5.6.5/brave-instrumentation-spring-web-5.6.5-sources.jar
+2022-06-03 16:48:28,910 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-web/5.6.5/brave-instrumentation-spring-web-5.6.5-sources.jar
+2022-06-03 16:48:28,935 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-web:5.6.5
+2022-06-03 16:48:29,658 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.6.5/brave-instrumentation-http-5.6.5-sources.jar
+2022-06-03 16:48:30,010 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/5.6.5/brave-instrumentation-http-5.6.5-sources.jar
+2022-06-03 16:48:30,030 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:5.6.5
+2022-06-03 16:48:30,754 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.6.5/brave-instrumentation-spring-rabbit-5.6.5-sources.jar
+2022-06-03 16:48:31,114 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.6.5/brave-instrumentation-spring-rabbit-5.6.5-sources.jar
+2022-06-03 16:48:31,140 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-rabbit:5.6.5
+2022-06-03 16:48:31,846 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.6.5/brave-instrumentation-kafka-clients-5.6.5-sources.jar
+2022-06-03 16:48:32,191 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-kafka-clients/5.6.5/brave-instrumentation-kafka-clients-5.6.5-sources.jar
+2022-06-03 16:48:32,211 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-kafka-clients:5.6.5
+2022-06-03 16:48:32,920 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.6.5/brave-instrumentation-httpclient-5.6.5-sources.jar
+2022-06-03 16:48:33,278 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpclient/5.6.5/brave-instrumentation-httpclient-5.6.5-sources.jar
+2022-06-03 16:48:33,301 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpclient:5.6.5
+2022-06-03 16:48:34,021 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.6.5/brave-instrumentation-httpasyncclient-5.6.5-sources.jar
+2022-06-03 16:48:34,380 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.6.5/brave-instrumentation-httpasyncclient-5.6.5-sources.jar
+2022-06-03 16:48:34,403 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpasyncclient:5.6.5
+2022-06-03 16:48:35,122 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.5/brave-instrumentation-spring-webmvc-5.6.5-sources.jar
+2022-06-03 16:48:35,479 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.6.5/brave-instrumentation-spring-webmvc-5.6.5-sources.jar
+2022-06-03 16:48:35,504 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-webmvc:5.6.5
+2022-06-03 16:48:36,266 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-servlet/5.6.5/brave-instrumentation-servlet-5.6.5-sources.jar
+2022-06-03 16:48:36,643 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-servlet/5.6.5/brave-instrumentation-servlet-5.6.5-sources.jar
+2022-06-03 16:48:36,670 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-servlet:5.6.5
+2022-06-03 16:48:37,393 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.6.5/brave-instrumentation-jms-5.6.5-sources.jar
+2022-06-03 16:48:37,751 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-jms/5.6.5/brave-instrumentation-jms-5.6.5-sources.jar
+2022-06-03 16:48:37,821 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-jms:5.6.5
+2022-06-03 16:48:38,540 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-log4j2/2.1.7.RELEASE/spring-boot-starter-log4j2-2.1.7.RELEASE-sources.jar
+2022-06-03 16:48:38,542 [Worker-553: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-log4j2:2.1.7.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-log4j2:jar:sources:2.1.7.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:48:39,260 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2-sources.jar
+2022-06-03 16:48:39,616 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2-sources.jar
+2022-06-03 16:48:39,635 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-slf4j-impl:2.11.2
+2022-06-03 16:48:40,347 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar
+2022-06-03 16:48:41,513 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar
+2022-06-03 16:48:41,534 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-core:2.11.2
+2022-06-03 16:48:42,253 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2-sources.jar
+2022-06-03 16:48:42,602 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2-sources.jar
+2022-06-03 16:48:42,623 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-jul:2.11.2
+2022-06-03 16:48:43,332 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-zipkin/2.1.2.RELEASE/spring-cloud-starter-zipkin-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:43,513 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-zipkin/2.1.2.RELEASE/spring-cloud-starter-zipkin-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:43,532 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:44,255 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.2.RELEASE/spring-cloud-sleuth-zipkin-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:44,627 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.1.2.RELEASE/spring-cloud-sleuth-zipkin-2.1.2.RELEASE-sources.jar
+2022-06-03 16:48:44,648 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:45,368 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.14.2/zipkin-2.14.2-sources.jar
+2022-06-03 16:48:45,858 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/zipkin2/zipkin/2.14.2/zipkin-2.14.2-sources.jar
+2022-06-03 16:48:45,882 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.zipkin2:zipkin:2.14.2
+2022-06-03 16:48:46,656 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.8.4/zipkin-reporter-2.8.4-sources.jar
+2022-06-03 16:48:46,871 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.8.4/zipkin-reporter-2.8.4-sources.jar
+2022-06-03 16:48:46,892 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:2.8.4
+2022-06-03 16:48:47,613 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.8.4/zipkin-sender-kafka-2.8.4-sources.jar
+2022-06-03 16:48:47,975 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-kafka/2.8.4/zipkin-sender-kafka-2.8.4-sources.jar
+2022-06-03 16:48:48,001 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-kafka:2.8.4
+2022-06-03 16:48:48,729 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.8.4/zipkin-sender-amqp-client-2.8.4-sources.jar
+2022-06-03 16:48:49,088 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-sender-amqp-client/2.8.4/zipkin-sender-amqp-client-2.8.4-sources.jar
+2022-06-03 16:48:49,159 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-amqp-client:2.8.4
+2022-06-03 16:48:49,161 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-sleuth:2.1.2.RELEASE
+2022-06-03 16:48:49,162 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-core:2.1.2.RELEASE
+2022-06-03 16:48:49,163 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.4
+2022-06-03 16:48:49,165 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:5.6.5
+2022-06-03 16:48:49,166 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-log4j2:5.6.5
+2022-06-03 16:48:49,167 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-web:5.6.5
+2022-06-03 16:48:49,168 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:5.6.5
+2022-06-03 16:48:49,170 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-rabbit:5.6.5
+2022-06-03 16:48:49,171 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-kafka-clients:5.6.5
+2022-06-03 16:48:49,172 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpclient:5.6.5
+2022-06-03 16:48:49,173 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpasyncclient:5.6.5
+2022-06-03 16:48:49,175 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-webmvc:5.6.5
+2022-06-03 16:48:49,176 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-servlet:5.6.5
+2022-06-03 16:48:49,177 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-jms:5.6.5
+2022-06-03 16:48:49,876 [Worker-553: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-log4j2/2.1.7.RELEASE/spring-boot-starter-log4j2-2.1.7.RELEASE-javadoc.jar
+2022-06-03 16:48:49,877 [Worker-553: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-log4j2:2.1.7.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-log4j2:jar:javadoc:2.1.7.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-06-03 16:48:49,879 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-slf4j-impl:2.11.2
+2022-06-03 16:48:49,881 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-core:2.11.2
+2022-06-03 16:48:49,882 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-jul:2.11.2
+2022-06-03 16:48:49,883 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:49,885 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:49,886 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.zipkin2:zipkin:2.14.2
+2022-06-03 16:48:49,887 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:2.8.4
+2022-06-03 16:48:49,888 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-kafka:2.8.4
+2022-06-03 16:48:49,889 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-amqp-client:2.8.4
+2022-06-03 16:48:49,891 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-sleuth:2.1.2.RELEASE
+2022-06-03 16:48:49,892 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-core:2.1.2.RELEASE
+2022-06-03 16:48:49,893 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.4
+2022-06-03 16:48:49,894 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:5.6.5
+2022-06-03 16:48:49,895 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-log4j2:5.6.5
+2022-06-03 16:48:49,896 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-web:5.6.5
+2022-06-03 16:48:49,898 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:5.6.5
+2022-06-03 16:48:49,899 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-rabbit:5.6.5
+2022-06-03 16:48:49,900 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-kafka-clients:5.6.5
+2022-06-03 16:48:49,901 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpclient:5.6.5
+2022-06-03 16:48:49,903 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpasyncclient:5.6.5
+2022-06-03 16:48:49,904 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-webmvc:5.6.5
+2022-06-03 16:48:49,905 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-servlet:5.6.5
+2022-06-03 16:48:49,906 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-jms:5.6.5
+2022-06-03 16:48:49,909 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-slf4j-impl:2.11.2
+2022-06-03 16:48:49,910 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-core:2.11.2
+2022-06-03 16:48:49,911 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-jul:2.11.2
+2022-06-03 16:48:49,913 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:49,914 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:49,915 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.zipkin2:zipkin:2.14.2
+2022-06-03 16:48:49,916 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:2.8.4
+2022-06-03 16:48:49,918 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-kafka:2.8.4
+2022-06-03 16:48:49,919 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-amqp-client:2.8.4
+2022-06-03 16:48:49,920 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-sleuth:2.1.2.RELEASE
+2022-06-03 16:48:49,921 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-core:2.1.2.RELEASE
+2022-06-03 16:48:49,922 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.4
+2022-06-03 16:48:49,923 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:5.6.5
+2022-06-03 16:48:49,925 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-log4j2:5.6.5
+2022-06-03 16:48:49,926 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-web:5.6.5
+2022-06-03 16:48:49,927 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:5.6.5
+2022-06-03 16:48:49,928 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-rabbit:5.6.5
+2022-06-03 16:48:49,929 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-kafka-clients:5.6.5
+2022-06-03 16:48:49,930 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpclient:5.6.5
+2022-06-03 16:48:49,932 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-httpasyncclient:5.6.5
+2022-06-03 16:48:49,933 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-spring-webmvc:5.6.5
+2022-06-03 16:48:49,935 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-servlet:5.6.5
+2022-06-03 16:48:49,936 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-jms:5.6.5
+2022-06-03 16:48:49,938 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-slf4j-impl:2.11.2
+2022-06-03 16:48:49,940 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-core:2.11.2
+2022-06-03 16:48:49,941 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-jul:2.11.2
+2022-06-03 16:48:49,942 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-starter-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:49,943 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-sleuth-zipkin:2.1.2.RELEASE
+2022-06-03 16:48:49,945 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.zipkin2:zipkin:2.14.2
+2022-06-03 16:48:49,946 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:2.8.4
+2022-06-03 16:48:49,947 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-kafka:2.8.4
+2022-06-03 16:48:49,948 [Worker-553: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-sender-amqp-client:2.8.4
+2022-06-03 16:48:50,453 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,454 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,454 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,455 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,455 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice1\src\test\resources
+2022-06-03 16:48:50,463 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,463 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,463 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,464 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,464 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice2\src\test\resources
+2022-06-03 16:48:50,471 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,471 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,471 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,473 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,473 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice3\src\test\resources
+2022-06-03 16:48:50,480 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,480 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,480 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 16:48:50,481 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 16:48:50,481 [Worker-553: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\MS-zipkin\microservice4\src\test\resources
+2022-06-03 17:25:49,274 [Worker-563: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-core:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-core\pom.xml.
+2022-06-03 17:25:49,844 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 17:25:49,844 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 17:25:49,845 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 17:25:49,864 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 17:25:49,866 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 17:25:49,866 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 17:25:49,866 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-core\src\test\resources
+2022-06-03 17:25:50,161 [Worker-565: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-core:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-core\pom.xml.
+2022-06-03 17:25:51,104 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 17:25:51,105 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 17:25:51,107 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 17:25:51,107 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 17:25:51,108 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 17:25:51,109 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 17:25:51,109 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\boa-spring-core\src\test\resources
+2022-06-03 17:26:06,115 [Worker-563: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:boa-spring-core:0.0.1-SNAPSHOT @ C:\Users\Administrator\git\BOASpringBootTraining\boa-spring-core2\pom.xml.
+2022-06-03 17:26:06,796 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 17:26:06,796 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 17:26:06,796 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-03 17:26:06,813 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-03 17:26:06,815 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 17:26:06,815 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-03 17:26:06,815 [Worker-568: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\git\BOASpringBootTraining\boa-spring-core2\src\test\resources
