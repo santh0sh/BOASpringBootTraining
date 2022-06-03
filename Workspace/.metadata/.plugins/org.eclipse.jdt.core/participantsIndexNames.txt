@@ -9,6 +9,8 @@ C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Worksp
 \boa-spring-mvc-swagger\src\main\java
 C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2799254551.index
 \boa-spring-jpa\src\main\java
+C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3650565538.index
+\boa-spring-mvc-template\src\main\java
 C:\Users\Administrator\Desktop\Spring Boot Training\BOASpringBootTraining\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\698733539.index
 \springbootCRUD\src\main\java
 C:\Users\Administrator\Desktop\Spring Boot Training\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1921255507.index
