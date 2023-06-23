@@ -1,8 +1,6 @@
 package com.service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +28,7 @@ public class ShoppingService {
 		
 		
 		ObjectMapper mapper= new ObjectMapper();
-		String productServiceUrl="http://localhost:8080/products/getProduct"+shoppingCartRequessRequestList.stream()
+		String productServiceUrl="http://product-service/products/getProduct"+shoppingCartRequessRequestList.stream()
 		.map(e -> String.valueOf(e.getProductId())).collect(Collectors.joining(","));
 		List<Product> productServiceList= builder.build()
 				.get()
