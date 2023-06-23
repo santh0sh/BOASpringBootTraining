@@ -19,7 +19,7 @@ public class Product {
 	@GeneratedValue
 	private Long productId;
 	private String productName;
-	private String quantity;
-	private String amount;
+	private Integer quantity;
+	private Integer amount;
 	
 }
