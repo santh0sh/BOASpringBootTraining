@@ -1,0 +1,20 @@
+package com.example.publisher;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+public class MessageConfig {
+
+	public static final String QUEUE = "boa_queue";
+	public static final String EXCHANGE = "boa_exchange";
+	public static final String ROUTING_KEY = "boa_key";
+	
+	
+	public Queue queue(){
+		return new Queue(QUEUE);
+	}
+	
+
+}

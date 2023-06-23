@@ -1,0 +1,13 @@
+package com.example.boaspringclient;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BoaSpringClientApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BoaSpringClientApplication.class, args);
+	}
+
+}

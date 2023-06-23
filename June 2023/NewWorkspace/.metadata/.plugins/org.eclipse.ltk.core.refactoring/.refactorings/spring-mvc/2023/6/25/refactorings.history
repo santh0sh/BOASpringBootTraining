@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AppController.java&apos; to &apos;spring-mvc/src/main/java/com.example.springmvc&apos;&#x0D;&#x0A;- Original project: &apos;spring-mvc&apos;&#x0D;&#x0A;- Destination element: &apos;spring-mvc/src/main/java/com.example.springmvc&apos;&#x0D;&#x0A;- Original element: &apos;com.example.springmvc.AppController.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.springmvc" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.springmvc{AppController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1687245973445" units="1" version="1.0"/>
+</session>

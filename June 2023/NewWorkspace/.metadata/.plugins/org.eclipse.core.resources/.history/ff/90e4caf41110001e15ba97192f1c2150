@@ -1,0 +1,8 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/boadb
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=rps@123
+logging.level.org.springframework.web=DEBUG
+spring.jpa.properties.hibernate.shoq_sql=true
+spring.mvc.pathmatch.matching-strategy = ANY_PATH_MATCHER

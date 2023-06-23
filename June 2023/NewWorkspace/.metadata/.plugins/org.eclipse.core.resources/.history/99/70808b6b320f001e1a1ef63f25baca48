@@ -1,0 +1,47 @@
+package com.example.springmvc;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+@RequestMapping("/mainapp")
+public class AppController {
+
+	ArrayList<User> al = new ArrayList<User>();
+
+	@RequestMapping(path = "/welcome", method = RequestMethod.GET)
+	@ResponseBody()
+	public String sayWelcome() {
+		return "Welcome to Spring MVC";
+	}
+
+	@RequestMapping(path = "/login", method = RequestMethod.GET)
+
+	public String login() {
+		return "login";
+	}
+
+	@RequestMapping(path = "/login", method = RequestMethod.POST)
+	@ResponseBody
+	public String loginValid(@RequestParam("uname") String uname, @RequestParam("pass") String pass) {
+		if (uname.equals("admin") && pass.equals("pass")) {
+			return "login successfull";
+		}
+		return "login failed";
+	}
+
+	@RequestMapping(path = "/register", method = RequestMethod.POST)
+	@ResponseBody
+	public String registerUser(@RequestParam("uname") String uname, @RequestParam("pass") String pass,
+			@RequestParam("email") String email, @RequestParam("city") String city) {
+		al.add(new User(uname, pass, email, city));
+		System.out.println(al);
+		return "user registered";
+	}
+
+}
