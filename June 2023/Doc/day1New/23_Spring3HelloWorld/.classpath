@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/asm-debug-all-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/spring-aop-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/spring-beans-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/spring-context-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/spring-context-support-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/spring-core-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/corporate training/spring/spring3Training/lib/springlib/springlib/core/v4lib/spring-expression-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

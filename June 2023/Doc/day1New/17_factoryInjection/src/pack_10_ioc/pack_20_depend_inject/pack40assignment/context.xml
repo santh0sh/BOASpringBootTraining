@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/util
+                http://www.springframework.org/schema/util/spring-util.xsd"> 
+
+   <bean id="employee"
+   	class="pack_10_ioc.pack_20_depend_inject.pack40assignment.EmpBean" scopt="prototype">
+	<!-- By default, singleton is true -->
+
+   	<property name="empNm">
+   		<value>Chandra</value>
+   	</property>
+   	<property name="empSal">
+   		<value>10000.0</value>
+   	</property>
+   	<property name="address" ref="address"/>
+   	<property name="contact" ref="contact"/>
+   	<property name="familyMembers" ref="familymembers"/>
+   </bean>
+   
+   <bean id="address"
+   		class="pack_10_ioc.pack_20_depend_inject.pack40assignment.Address">
+	   <property name="careOf">
+	   		<value></value>
+	   	</property>
+	   	<property name="line1">
+	   		<value>104/2B, N.G.Suncity Ph II</value>
+	   	</property>
+	   	<property name="line2">
+	   		<value>Thakur Village</value>
+	   	</property>
+	   	<property name="city">
+	   		<value>Kandivali(E), Mumbai</value>
+	   	</property>
+	   	<property name="state">
+	   		<value>Maharashtra</value>
+	   	</property>
+	   	<property name="pin">
+	   		<value>400101</value>
+	   	</property>
+	</bean>
+	
+	<bean id="contact"
+   		class="pack_10_ioc.pack_20_depend_inject.pack40assignment.Contacts">
+   		<constructor-arg>
+   			<value>65165017, 9226103990</value>
+   		</constructor-arg>
+	</bean>
+	
+	<bean id="familymembers"
+   		class="pack_10_ioc.pack_20_depend_inject.pack40assignment.FamilyMembers">
+	   <constructor-arg>
+            <util:map>
+                <entry key="01" value="Shubham"/>
+                <entry key="02" value="Shaunak"/>
+            </util:map>
+        </constructor-arg>
+   </bean>
+</beans>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/util
+                http://www.springframework.org/schema/util/spring-util.xsd"> 
+
+   <bean id="pragati_details" class="pack_10_ioc.pack_30_initcollection.pack30collection.PragatiSoftware">
+     
+     	<!--  Maps -->
+		<property name="branches">
+			<map> 
+				<entry key="Dadar_Mumbai">
+					<value>Shop 123, Lane 6, Subhash Road</value>
+				</entry>
+				<entry key="Borivali_Mumbai">
+					<value>Shop 234, Shoper's Stop, Link Road</value>
+				</entry>
+				<entry key="Thane_Mumbai">
+					<value>Teen Hath Naka, Cross Road 2</value>
+				</entry>
+			</map>
+		</property>
+		
+		<!-- List Collection -->
+		<property name="cliental">
+			<list>
+				<ref bean="client1" />
+				<ref bean="client2" />
+			</list>
+		</property>
+		
+		<!--  Set -->
+		<property name="directors">
+			<set>
+				<value>Mr. Malhotra</value>
+				<value>Mr. Gihrotra</value>
+				<value>Mr. Sanmitra</value>
+			</set>
+		</property>
+		
+   		<!-- Contact Emails Properties -->
+		<property name="contactEmails">
+			<props>
+				<prop key="administration">administrator@somecompany.org</prop>
+				<prop key="training_support">support@somecompany.org</prop>
+				<prop key="sales_marketting">sales@somecompany.org</prop>
+			</props>
+		</property>
+		
+		<property name="serverIps" ref="IpsConfig" />
+	</bean>
+   	
+   <bean id="client1"
+   		class="pack_10_ioc.pack_30_initcollection.pack30collection.Client">
+	   <property name="name">
+	   		<value>ABC Software Pvt. Ltd</value>
+	   	</property>
+	   	<property name="address">
+	   		<value>104/2B, N.G.Suncity Ph II</value>
+	   	</property>
+	</bean>
+	
+	<bean id="client2"
+   		class="pack_10_ioc.pack_30_initcollection.pack30collection.Client">
+	   <property name="name">
+	   		<value>PQR Software Pvt. Ltd</value>
+	   	</property>
+	   	<property name="address">
+	   		<value>Evershine Eclave</value>
+	   	</property>
+	</bean>
+	
+	<bean id="IpsConfig" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+	<!--  This is property class builder -->
+	  <property name="location" value="pack_10_ioc/pack_30_initcollection/pack30collection/server.properties"/>
+	</bean>
+</beans>

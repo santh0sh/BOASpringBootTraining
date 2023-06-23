@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+	xmlns:context="http://www.springframework.org/schema/context">
+         
+   <context:annotation-config/>
+   <context:component-scan base-package="pack_10_ioc.pack_20_depend_inject.pack30scopes" />
+   <!-- 
+   <bean id="employee"
+   	class="pack_10_ioc.pack_20_depend_inject.pack30scopes.EmpBean">
+
+	   	<property name="empNm">
+	   		<value>Chandra</value>
+	   	</property>
+	   	<property name="empSal">
+	   		<value>10000.0</value>
+	   	</property>
+   </bean>
+   
+	 
+	<bean id="familymember" class="pack_10_ioc.pack_20_depend_inject.pack30scopes.FamilyMember" scope="prototype"> 
+	   <property name="name">
+	   		<value>Shubham</value>
+	   	</property>
+	   	<property name="relation">
+	   		<value>Elder son</value>
+	   	</property>
+   </bean>
+    -->
+</beans>

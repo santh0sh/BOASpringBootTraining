@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!--  This is for version 2 or earlier of spring -->
+<!DOCTYPE beans PUBLIC 
+"-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd"> 
+<!--  If dtd version not given then old version 1.1 is taken --> 
+
+<beans>
+
+	<bean id="employee1" class="pack_10_ioc.pack_10_accessbean.packsimplebean.EmpBean"  singleton="true">
+		<!-- By default, singleton is true -->
+
+	<!-- Specifying constructor for object initialization. -->
+	<!-- If this child is not specified, no-arg constructor is invoked. -->
+	<!-- 
+   	<constructor-arg>
+   		<value>Chandra</value>
+   	</constructor-arg>
+   	 -->
+   	 
+   	<!--  Specifying properties for object initialization-->
+   	<property name="empNm">
+   		<value>Chandra</value>
+   	</property>
+   	<property name="empSal">
+   		<value>10000.0</value>
+   	</property>
+   </bean>
+</beans>
+
+
+
+
+

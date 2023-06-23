@@ -1,0 +1,24 @@
+package com.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.model.InterestCalculator;
+@Service("service")
+public class CalculatorService {
+	
+	@Autowired
+	private InterestCalculator ic;
+	
+	public InterestCalculator getIc() {
+		return ic;
+	}
+	public void setIc(InterestCalculator ic) {
+		this.ic = ic;
+	}
+	
+	
+	public double service(double amt){
+		return ic.calculate(amt);
+	}
+}

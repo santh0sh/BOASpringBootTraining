@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+       
+<bean id="fda" class="com.model.FDAccountCalculator">
+<property name="roi" value="8"/>
+<property name="duration" value="3"/>
+</bean>
+<import resource="beans2.xml"/>
+<import resource="beans3.xml"/>
+</beans>	

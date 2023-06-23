@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/util
+                http://www.springframework.org/schema/util/spring-util.xsd">
+                
+  	<bean id="news_print_manager" class="pack_10_ioc.pack_60_DI.pack_02_applcontext_aware.NewsPrintManager" scope="singleton">
+  		
+  	</bean>
+  	
+  	<bean id="todays_news" class="pack_10_ioc.pack_60_DI.pack_02_applcontext_aware.TodaysNews" scope="prototype">
+  	</bean>
+</beans>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+
+<!-- It is schema style configuration for Spring 2.5  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+   <bean id="employee1" class="pack_10_ioc.pack_10_accessbean.packsimplebean.EmpBean" scope="prototype">
+	<!-- By default, singleton is true -->
+
+	<!-- Specifying constructor for object initialization. -->
+	<!-- If no constructor or property child is specified, no-arg constructor is invoked. -->
+   </bean>
+   
+    <bean id="employee2" class="pack_10_ioc.pack_10_accessbean.packsimplebean.EmpBean" scope="prototype">
+    <!--  Specifying on para constructor for object initialization-->
+    	<constructor-arg>
+   			<value>Chandra</value>
+   		</constructor-arg>
+    </bean>
+    
+    <bean id="employee3" class="pack_10_ioc.pack_10_accessbean.packsimplebean.EmpBean" scope="prototype">
+     <!--  Specifying two para constructor for object initialization-->
+    	<constructor-arg>
+   			<value>Surya</value>
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>20000.0</value>
+   		</constructor-arg>
+    </bean>
+    
+    <bean id="employee4" class="pack_10_ioc.pack_10_accessbean.packsimplebean.EmpBean" scope="prototype">
+    <!--  Specifying properties for object initialization-->
+    	<property name="empNm">
+   			<value>Prithvi</value>
+   		</property>
+   		<property name="empSal">
+   			<value>10000.0</value>
+   		</property>
+    </bean>
+    
+    <bean id="employee5" class="pack_10_ioc.pack_10_accessbean.packsimplebean.EmpBean" scope="singleton">
+    </bean>
+</beans>

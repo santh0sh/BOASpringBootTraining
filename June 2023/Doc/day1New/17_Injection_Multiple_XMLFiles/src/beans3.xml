@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+  <bean id="service" class="com.service.CalculatorService">
+	<property name="ic" ref="sa"/>
+</bean>
+
+
+</beans>	

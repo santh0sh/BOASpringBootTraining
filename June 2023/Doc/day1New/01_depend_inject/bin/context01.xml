@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+
+	<import resource="db_config.xml"/>
+
+   <bean id="emp_list"
+   	class="pack_10_ioc.pack_20_depend_inject.pack20dependency_datasource.EmpDao">
+	<!-- By default, singleton is true -->
+	   	<property
+	   		name="dataSourceRef"
+	   		ref="dataSourceRef">
+	   	</property>
+   </bean>
+</beans>

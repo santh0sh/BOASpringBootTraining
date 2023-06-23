@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ 
+<!-- It is schema style configuration for Spring 2.5  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+
+   <bean id="employee" class="pack_10_ioc.pack_20_depend_inject.pack10setter_construct.EmpBean">
+	<!-- By default, singleton is true -->
+
+	<!-- Constructor Injection -->
+	<!-- 
+   	<constructor-arg>
+   		<ref bean = "address"/>
+   	</constructor-arg>
+   	 -->
+   
+   	<property name="empNm">
+   		<value>Chandra</value>
+   	</property>
+   	<property name="empSal">
+   		<value>10000.0</value>
+   	</property>
+   	
+   	<!-- Setter Injection    -->
+   	<property name="address" ref="address"/>
+   
+   </bean>
+   
+   <bean id="address"
+   		class="pack_10_ioc.pack_20_depend_inject.pack10setter_construct.Address">
+	   <property name="careOf">
+	   		<value></value>
+	   	</property>
+	   	<property name="line1">
+	   		<value>104/2B, N.G.Suncity Ph II</value>
+	   	</property>
+	   	<property name="line2">
+	   		<value>Thakur Village</value>
+	   	</property>
+	   	<property name="city">
+	   		<value>Kandivali(E), Mumbai</value>
+	   	</property>
+	   	<property name="state">
+	   		<value>Maharashtra</value>
+	   	</property>
+	   	<property name="pin">
+	   		<value>400101</value>
+	   	</property>
+	</bean>
+
+</beans>

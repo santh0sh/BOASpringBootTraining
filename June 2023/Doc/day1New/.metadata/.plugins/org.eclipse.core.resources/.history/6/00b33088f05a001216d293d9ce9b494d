@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="fda" class="com.model.FDAccountCalculator"
+		dependency-check="simple">
+		<property name="roi" value="8" />
+		<property name="duration" value="3" />
+
+	</bean>
+	<bean id="sa" class="com.model.SavingAccountInterestCalculator"
+		dependency-check="simple">
+		<property name="roi" value="8" />
+		<property name="duration" value="3" />
+	</bean>
+	<bean id="service" class="com.service.CalculatorService"
+		dependency-check="objects">
+		<property name="ic" ref="fda" />
+	</bean>
+</beans>	

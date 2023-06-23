@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/17_factoryInjection/src/pack_10_ioc/pack_50_factory/pack_20_factory_pattern02/TestFactoryPattern.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="pack_10_ioc.pack_50_factory.pack_20_factory_pattern02.TestFactoryPattern"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="17_factoryInjection"/>
+</launchConfiguration>
