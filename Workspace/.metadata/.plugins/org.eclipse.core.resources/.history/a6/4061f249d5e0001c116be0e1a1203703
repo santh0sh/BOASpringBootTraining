@@ -1,9 +1,0 @@
-package com.exception;
-
-public class CusotmException {
-
-	public CusotmException() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
